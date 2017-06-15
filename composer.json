@@ -1,0 +1,25 @@
+{
+    "name": "ddmytruk/yii2-mailer",
+    "description": "My yii2 mailer",
+    "keywords": ["yii2", "yii2-mailer"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Dmytruk",
+            "email": "d.dmytruk@icloud.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "^2.0.0",
+        "yiisoft/yii2-swiftmailer": "^2.0.0",
+        "ddmytruk/yii2-core": "@dev"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "ddmytruk\\mailer\\": ""
+        }
+    }
+}
