@@ -2,21 +2,17 @@
 /**
  * Created by PhpStorm.
  * User: dmytrodmytruk
- * Date: 15.06.17
- * Time: 16:46
+ * Date: 16.06.17
+ * Time: 10:55
  */
 
-namespace ddmytruk\mailer;
+namespace ddmytruk\mailer\abstracts;
 
-use Yii;
 use yii\base\Component;
+use Yii;
 use yii\base\InvalidConfigException;
 
-/**
- * Mailer
- */
-
-class Mailer extends Component
+abstract class MailerAbstract extends Component
 {
     /** @var string */
     public $viewPath = '';
